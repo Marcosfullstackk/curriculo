@@ -3,7 +3,8 @@
 body {
     width: 100vw;
     box-sizing: border-box;
-    background-color: #3F403F;
+    
+    background-size: cover;
 }
 .cabecalho {
     background-color: #9FB8AD;
@@ -32,10 +33,23 @@ nav li{
     gap: 50px;
 }
 .foto_perfil{
+    display: flex;
     width: 120px;
 }
 .footer{
 
+
+}
+
+.foto1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtu1v4aPs43li3z373F84epGa4bzphiiKvyMaRjXvFwID-EnM3avfX7wD1OrTpY87PYvQ&usqp=CAU);
+    background-size: cover;
+    opacity: 1;
+}
+
+.foto2{
+    background-image: url(https://classic.exame.com/wp-content/uploads/2016/09/size_960_16_9_grafico-sobe1.jpg?quality=70&strip=info&w=960);
+    opacity: 0.65;
 
 }
 
